@@ -11,13 +11,13 @@
 /* BG IMAGE */
 .mainbg {
 
-  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 600px;
-    
+    height: 500px;
+
 
 }
 
@@ -32,15 +32,16 @@
     border-radius: 50px;
     background-color: rgb(0, 255, 170);
     font-size: 16px;
-    font-weight:400;
+    font-weight: 400;
     align-items: center;
     margin-right: 20px;
-    font-family: sans-serif, ;    
-    
+    font-family: sans-serif, ;
+
 
 
 }
-.btn0:hover{
+
+.btn0:hover {
     color: #fff;
     background-color: transparent;
     border: 2px solid rgb(0, 255, 179);
@@ -59,9 +60,9 @@
     border-radius: 50px;
     margin-top: 10px;
     margin-left: 30px;
-    
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: 4px solid rgb(0, 255, 179);
+    border: 2px solid rgb(0, 255, 179);
 }
 
 
@@ -72,11 +73,11 @@
 .nav {
 
     font-size: 16px;
-    font-family: sans-serif,'fantasy';
+    font-family: sans-serif, 'fantasy';
     width: 100%;
-    
+
     flex-wrap: wrap;
-    padding: 5px 0;
+    padding: 10px 0;
 
 
 
@@ -85,11 +86,12 @@
 /* nav ul */
 .nav ul {
 
-    margin-top: -80px;
-    
+    margin: -75px;
+    display: flex;
+    justify-content: right;
     flex: 1;
     text-align: right;
-    
+
 }
 
 /* Nav Ul Li */
@@ -98,7 +100,7 @@
 
     display: inline-block;
     list-style: none;
-    margin: 30px 30px;
+    margin: 10px 20px;
 }
 
 
@@ -113,14 +115,15 @@
     text-decoration: none;
     position: relative;
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
 
     color: rgb(0, 255, 170);
     transition: 0.3s;
 }
 
 .nav ul li a::after {
-    top: 20px;
+    top: 30px;
     content: "";
     width: 0;
     height: 3px;
@@ -128,7 +131,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-  
+
     background: rgb(4, 245, 124);
     transition: width 0.3s;
 
@@ -137,33 +140,44 @@
 .nav ul li a:hover::after {
 
     width: 100%;
-   
+
 }
 
 
 .btn1 {
 
-    
+
     border-radius: 20px;
     width: 175px;
     background-color: rgb(0, 255, 149);
     border: none;
-    height:39px; 
+    height: 39px;
     font-size: 17px;
-    font-family: sans-serif,'poppins';
+    font-family: sans-serif, 'poppins';
     color: #fff;
-   
-    
-    
-}   
-.btn1 a:hover{
+
+
+
+}
+
+.btn1 a:hover {
 
     text-decoration: none;
     color: #fff;
 }
 
-   
- 
+
+.hambr {
+
+    color: #fff;
+
+}
+
+.hambr:hover {
+
+    color: rgb(0, 255, 200);
+    border: none;
+}
 
 
 
@@ -177,20 +191,22 @@
 
 
 }
+
 /* main animated heading */
-.txt-animated{
-   
-    font-size: 100px;
+.txt-animated {
+
+    font-size: 6rem;
     font-weight: 800;
-    
+
 }
-.txt-animated{
+
+.txt-animated {
     color: transparent;
     -webkit-text-stroke: 2px #fff;
     background: url("img/back.png");
     -webkit-background-clip: text;
     animation: back 50s linear infinite;
-   
+
 
 }
 
@@ -209,10 +225,10 @@
 
 /* sub text */
 
-   
 
-    
-    
+
+
+
 
 
 /* bg ended */
@@ -253,40 +269,42 @@
 
 }
 
-.bg-about{
+.bg-about {
 
 
 
-       
-        
-       
-        background-color: rgb(20, 20, 20);
-       
-        background-size: cover;
-       
-        background-attachment: fixed;
-        border: 6px solid #fff;
-       
-       
+
+
+
+    background-color: rgb(20, 20, 20);
+
+    background-size: cover;
+
+    background-attachment: fixed;
+    border: 6px solid #fff;
+
+
 }
-.bg-about:hover{
+
+.bg-about:hover {
 
     background-color: rgb(0, 0, 0);
-    
+
     transition: 0.3s;
 }
-.about-h2{
+
+.about-h2 {
 
     font-size: 40px;
-    font-family: sans-serif,'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif, 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
 
 .ch1 {
 
 
- color: #fff;
- 
+    color: #fff;
+
 }
 
 
@@ -298,12 +316,13 @@
     border: 2px solid #fff;
     border-width: 8px;
     box-shadow: rgba(197, 197, 197, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    
-  
-    
-        
+
+
+
+
 
 }
+
 .img9:hover {
     box-shadow: rgba(1, 253, 156, 0.3) 0px 19px 38px, rgba(1, 255, 115, 0.22) 0px 15px 12px;
     border: 5px solid rgb(0, 255, 136);
@@ -311,15 +330,15 @@
 }
 
 .img8 {
-    
-    
+
+
     border-radius: 5px;
     border: 2px solid #fff;
     border-width: 8px;
     /* margin-left: 20px; */
     /* margin-top: 60px;     */
     margin: -10px 20px 30px 20px;
-    
+
 }
 
 .img8:hover {
@@ -330,13 +349,13 @@
 }
 
 .img7 {
-    
+
     /* position: relative;
     top: -15px; */
     border-radius: 5px;
     border: 2px;
     border-width: 8px;
-    
+
     border: 9px solid #fff;
 }
 
@@ -347,8 +366,8 @@
 }
 
 .img6 {
-    
-    
+
+
     border-radius: 5px;
     border: 2px solid #fff;
     border-width: 8px;
@@ -356,10 +375,11 @@
     /* margin-top:-35px; */
     box-shadow: rgba(160, 160, 160, 0.16) 0px 3px 6px, rgba(59, 59, 59, 0.932) 0px 3px 6px;
     margin: -10px 20px 30px 20px;
-    
+
 
 
 }
+
 .img6:hover {
     box-shadow: rgba(1, 253, 156, 0.3) 0px 19px 38px, rgba(1, 255, 115, 0.22) 0px 15px 12px;
     border: 5px solid rgb(0, 255, 136);
@@ -371,7 +391,7 @@
 .h2 {
     font-size: 35px;
     font-family: sans-serif;
-    
+
 }
 
 .h2 a {
@@ -388,7 +408,7 @@
 /* btn2 */
 .btn2 {
 
-   
+
     width: 120px;
     height: 39px;
     border-radius: 50px;
@@ -418,19 +438,20 @@
     background: url("img/portfolio.png");
     height: 500px;
     width: 100%;
-    border: 6px solid #fff;    
+    border: 6px solid #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 
 
 }
-.bg-service:hover{
+
+.bg-service:hover {
 
     border-color: rgb(0, 255, 170);
     transition: 0.3s;
-   
+
 }
 
 
@@ -444,35 +465,37 @@
 }
 
 /* services text */
-.services-text{
+.services-text {
 
     font-size: 30px;
     font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #fff;
-   
-    
-    
-   
+
+
+
+
 
 }
 
 .services-text:hover {
 
     color: rgb(0, 255, 213);
-    
-    
+
+
     transition: 0.3s;
 }
-.img-about{
+
+.img-about {
 
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    
-    
+
+
 }
-.text{
+
+.text {
 
     color: #fff;
 }
@@ -489,8 +512,8 @@
     color: #fff;
 
     font-family: Georgia, 'Times New Roman', Times, serif sans-serif;
-    
-    
+
+
     font-size: 40px;
     font-weight: 600;
 
@@ -503,10 +526,10 @@
     justify-content: space-evenly;
     align-items: center;
     height: fit-content;
-    
-   
-   
-   
+
+
+
+
 }
 
 /* services main heading */
@@ -514,7 +537,7 @@
 
 /* btn4 services btn */
 .btn4 {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -540,36 +563,36 @@
 /* my positioning */
 .chil1 {
     border: 3px solid rgb(0, 255, 179);
-    box-shadow: rgba(1, 253, 97, 0.3) 0px 19px 38px,;
+    box-shadow: rgba(1, 253, 97, 0.3) 0px 19px 38px, ;
     border-radius: 5px;
     padding: 15px;
-    
+
 
 }
 
 .chil1:hover {
 
 
-  
+
     background-color: rgb(19, 18, 18);
-    
-    
+
+
     border-radius: 5px;
     align-items: center;
     /* border-width: 4px; */
     transition: 0.7s;
-    
+
     box-shadow: rgba(1, 253, 97, 0.3) 0px 19px 38px, rgba(1, 255, 221, 0.22) 0px 15px 12px;
-    
+
 }
 
 /* web icon */
-.web-icon{
+.web-icon {
 
     color: rgb(0, 255, 179);
     font-size: 55px;
-    
-    
+
+
 }
 
 
@@ -579,141 +602,159 @@
 /* testmonials */
 .test-bg {
 
-    background-image:linear-gradient(black,rgb(54, 54, 54));
+    background-image: linear-gradient(black, rgb(54, 54, 54));
     background-size: cover;
-  
+
     background-position: fixed;
     height: 400px;
 
     border: 6px solid #fff;
 }
-.test-bg:hover{
+
+.test-bg:hover {
 
     border-color: rgb(0, 255, 179);
     transition: 0.2s;
 }
 
 
-.test-heading{
+.test-heading {
 
     color: #fff;
-    margin-left:33px;
+    margin-left: 33px;
     font-weight: 600;
-      
-    
+
+
 }
 
 /* footer */
-.footer-bg{
+.footer-bg {
 
     background-color: rgb(0, 0, 0);
     height: 80px;
-    
-    
-   
+
+
+
 }
-.footer-img{
+
+.footer-img {
 
 
     border-radius: 50px;
     border: 2px solid rgb(0, 255, 179);
 
 }
-.img-ftr{
+
+.img-ftr {
 
     margin-left: 15px;
 }
-.footer-txt{
+
+.footer-txt {
 
     color: #fff;
-    font-family: sans-serif,'poppins';
+    font-family: sans-serif, 'poppins';
     font-weight: 500;
     font-size: 17px;
-    margin:30px;
-    
+    margin: 30px;
+
 }
 
-.icn{
+.icn {
 
     color: #fff;
     margin: 10px;
     font-size: 25px;
-    
+
 }
-.icn:hover{
+
+.icn:hover {
 
     color: rgb(0, 255, 179);
     transition: 0.3s;
 }
-.arrow{
+
+.arrow {
 
     color: #fff;
     font-size: 40px;
 }
-.arrow:hover{
+
+.arrow:hover {
 
     color: rgb(0, 255, 170);
-   transition: 0.3s;
+    transition: 0.3s;
 }
-.footer-copy{
+
+.footer-copy {
     color: #fff;
 
-    }
-.ftr-hvr{
+}
+
+.ftr-hvr {
 
     color: #fff;
     cursor: pointer;
 }
-.ftr-hvr:hover{
+
+.ftr-hvr:hover {
 
     color: rgb(0, 255, 179);
     transition: 0.2s;
 }
-.tst{
+
+.tst {
 
     border-radius: 5px;
     border: 3px solid #fff;
     width: 50%;
 }
-.tst:hover{
+
+.tst:hover {
 
     border-color: aqua;
     transition: 0.6s;
 }
+
 /* icon seo */
 
-.icon-seo.md-60px{
+.icon-seo.md-60px {
 
     font-size: 55px;
     color: rgb(0, 255, 191);
 }
-.hamb{
+
+.hamb {
 
     color: #fff;
     font-size: 25px;
-    
+
     display: block;
 }
-.hamb:hover{
+
+.hamb:hover {
 
     color: rgb(0, 255, 170);
     cursor: pointer;
     transition: 0.3s;
 }
 
+
+
+
+
+
+
 /* responsive code */
 
-@media only screen and(max-width:px) {
- 
-    .hamb{
+@media only screen and( min-width:700px)and(max-width:900px) {
 
-        display: inline-block;
-    }
+text
 
 }
 
-    
-   
+
+
 
 
 
