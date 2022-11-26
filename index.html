@@ -23,13 +23,71 @@
 
 <body>
 
+
+
+
+
+
+
+  <!-- nav section -->
   <section class="mainbg w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" class="logo"></a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler hamb" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars "></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <!-- Left links -->
+          <div class="collapse nav navbar-collapse" id="navbarSupportedContent">
+            <!-- Left links -->
+            <ul class="navbar-nav  text-light mt-2 me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abt" id="">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ser" id="">My Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tst" id="">Our Clients</a>
+              </li>
+              <form action="contact.html" target="_blank">
+                <li class="nav-item">
+                  <button class="btn0">Contact Me</button>
+                </li>
+              </form>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->'
+
+
+
+
+
+
     <header class=" h-140 w-100 ">
 
 
 
       <div class="parent">
-        <img src="img/logo.jpg" class="logo">
+
         <div class="main">
 
           <!-- Navbar -->
@@ -40,36 +98,8 @@
 
 
               <!-- Toggle button -->
-              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars hmbr"></i>
-              </button>
-
               <!-- Collapsible wrapper -->
-              <div class="collapse nav navbar-collapse" id="navbarSupportedContent">
-                <!-- Left links -->
-                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#abt" id="">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#ser" id="">My Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#tst" id="">Our Clients</a>
-                  </li>
-                  <form action="contact.html" target="_blank">
-                    <li class="nav-item">
-                      <button class="btn0">Contact Me</button>
-                    </li>
-                  </form>
-                </ul>
-                <!-- Left links -->
-              </div>
+
               <!-- Collapsible wrapper -->
             </div>
             <!-- Container wrapper -->
@@ -79,13 +109,13 @@
 
 
         </div>
-
+        <!-- main text section -->
         <!-- txt -->
         <div class="section-1   w-100 h-100 d-flex justify-content-center align-items-center flex-column  ">
 
           <h1 class=" txt-animated mt-5">EBAD AHMED</h1>
 
-          <a href="#"><button class="btn1 mt-5">Explore Now </button></a>
+          <a href="#down" id =""><button class="btn1 mt-4 ">Explore Now </button></a>
 
         </div>
     </header>
@@ -115,33 +145,35 @@
 
 
 
-
+  <!-- about section -->
   <section id="abt" class="bg-about h-100 w-100">
     <div class="d-flex justify-content-center m-3">
       <h2 class="about-h2 "><span style="color: rgb(0, 255, 157);">About</span> <span class="text-light">Me</span>
       </h2>
     </div>
-    <div class="container   main d-flex justify-content-between h-100 w-100 m-5">
+    <div class="cont  container   main d-flex justify-content-between h-100 w-100 ">
 
       <div class="ch1">
-        <h1>I AM <span style="color: rgb(0, 255, 170);">EBAD</span>AHMED</h1>
+        <h1 class="rsp-txt">I AM <span style="color: rgb(0, 255, 170);">EBAD</span>AHMED</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat esse architecto dolorem at minima.
           Repudiandae nostrum a quisquam. Laboriosam, exercitationem soluta suscipit porro fugiat aliquam
           voluptatibus
           facere. Amet fugiat exercitationem consequuntur tempore velit?</p>
 
         <br>
-        <button class="btn2 mt-5"> <span class="btntext"> View More </span> </button>
-
+        <div class="btn-abt d-flex justify-content-left align-items-center">
+          <button class="btn2 text-align-center"> <span class="btntext"> View More </span> </button>
+        </div>
 
 
 
       </div>
-      <div class=" img-about">
-        <img src="" alt="" srcset="" class="img9">
-        <img src="" alt="" srcset="" class="img8">
-        <img src="" alt="" srcset="" class="img7">
-        <img src="" alt="" srcset="" class="img6">
+      <div class="container img-about w-100 h-100">
+        <img src="img/pexels-olia-danilevich-4974912.jpg" alt="" srcset="" class="img9">
+        <img src="img/pexels-olia-danilevich-4974912.jpg" alt="" srcset="" class="img9">
+
+        <img src="img/pexels-olia-danilevich-4974912.jpg" alt="" srcset="" class="img9">
+        <img src="img/pexels-olia-danilevich-4974912.jpg" alt="" srcset="" class="img9">
 
       </div>
 
@@ -153,6 +185,9 @@
   <!-- My Services section -->
 
 
+
+
+  <!-- services section -->
   <section class="bg-service" id="ser">
     <div class="d-flex justify-content-center m-3">
       <h1 class="txt-services ">My <span style="color:rgb(0, 255, 157) "> Services</span></h1>
@@ -164,33 +199,35 @@
         <span class="material-symbols-outlined d-flex justify-content-center   icon-seo md-60px">
           monitoring
         </span>
-        <h3><a href="#" class="services-text">SEO</a></h3>
+        <h4><a href="#" class="services-text">SEO</a></h4>
 
         <span style="color: #fff;">Lorem ipsum dolor <br>sit amet consectetur<br> adipisicing elit. Consequuntur<br>
           modi aliquid ipsam fuga<br> quasi dicta
           <br> harum officia minima </span>
-
-        <button class="btn4 mt-3 ">See More</button>
-
+        <div class="view4">
+          <button class="btn4 mt-3 ">See More</button>
+        </div>
 
       </div>
       <div class="chil1">
         <i class="fa-solid fa-code web-icon d-flex justify-content-center"></i>
-        <h3 class="h3"><a href="#" class="services-text "> Web-Development</a></h3>
+        <h4 class="h3"><a href="#" class="services-text "> Web-Development</a></h4>
         <span style="color: #fff;">Lorem ipsum dolor <br>sit amet consectetur<br> adipisicing elit. Consequuntur<br>
           modi aliquid ipsam fuga<br> quasi dicta
           <br> harum officia minima </span>
-        <button class="btn4 mt-3">See More</button>
-
+        <div class="view4">
+          <button class="btn4 mt-3">See More</button>
+        </div>
       </div>
       <div class="chil1">
         <i class="fa-solid fa-pen-nib d-flex justify-content-center web-icon"></i>
-        <h3><a href="#" class="services-text"> Graphics Designing</a></h3>
+        <h4><a href="#" class="services-text"> Graphics Designing</a></h4>
         <span style="color: #fff;">Lorem ipsum dolor <br>sit amet consectetur<br> adipisicing elit. Consequuntur<br>
           modi aliquid ipsam fuga<br> quasi dicta
           <br> harum officia minima </span>
-        <button class="btn4 mt-3">See More</button>
-
+        <div class="view4">
+          <button class="btn4 mt-3">See More</button>
+        </div>
 
       </div>
 
@@ -266,29 +303,39 @@
 
 
   </section>
+  <!-- test ended -->
 
 
 
-  <!-- clients -->
 
 
 
 
   <!-- footer -->
-  <footer class="footer-bg">
+  <footer class="footer-bg" id="down" >
     <div class="main d-flex justify-content-between align-items-center">
-      <div class="img-ftr d-flex mt-1 ">
+      <div class="res d-flex  ">
+       <div class="res-text">
+        <a href="#"><img src="img/logo.jpg" alt="logo" class="footer-img mt-3  " width="50px" height="50px"></a>
+      </div>
 
-        <a href="#"><img src="img/logo.jpg" alt="logo" class="footer-img mt-2  " width="50px" height="50px"></a>
-        <p class="footer-txt mt-4"> EBAD <span style="color: rgb(0, 255, 157);">AHMED </span></p>
+        <div class="res m-4">
 
+          <p class="footer-txt  "> EBAD <span style="color: rgb(0, 255, 157);">AHMED </span></p>
+        </div>
       </div>
 
 
 
 
+
+
+
+
+
+
       <p class="footer-copy mt-3">Copyright <i class="fa-regular fa-copyright"></i> 2022 Created By <span
-          class="ftr-hvr">Ebad Ahmed</span> </p>
+          class="ftr-hvr"> Ebad Ahmed </span> </p>
 
 
       <div class="icon">
@@ -302,7 +349,7 @@
 
     </div>
 
-  </footer id="#">
+  </footer>
 
   <!-- footer ended -->
 
@@ -364,6 +411,6 @@
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
 
-</body>
+</body >
 
 </html>
